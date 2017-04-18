@@ -1,9 +1,14 @@
-# api documentation for  [slush (v1.1.1)](http://slushjs.github.io)  [![npm package](https://img.shields.io/npm/v/npmdoc-slush.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-slush) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-slush.svg)](https://travis-ci.org/npmdoc/node-npmdoc-slush)
+# npmdoc-slush
+
+#### api documentation for  [slush (v1.1.1)](http://slushjs.github.io)  [![npm package](https://img.shields.io/npm/v/npmdoc-slush.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-slush) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-slush.svg)](https://travis-ci.org/npmdoc/node-npmdoc-slush)
+
 #### The streaming scaffolding system - Gulp as a replacement for Yeoman
 
-[![NPM](https://nodei.co/npm/slush.png?downloads=true)](https://www.npmjs.com/package/slush)
+[![NPM](https://nodei.co/npm/slush.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/slush)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-slush/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-slush_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-slush/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-slush/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-slush/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-slush/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-slush/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-slush/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Joakim Bengtson",
-        "email": "joakim@klei.se"
+        "name": "Joakim Bengtson"
     },
     "bin": {
         "slush": "./bin/slush.js"
@@ -74,14 +78,12 @@
     ],
     "maintainers": [
         {
-            "name": "joakimbeng",
-            "email": "joakim@klei.se"
+            "name": "joakimbeng"
         }
     ],
     "name": "slush",
     "optionalDependencies": {},
     "preferGlobal": true,
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/slushjs/slush.git"
@@ -92,16 +94,6 @@
     "version": "1.1.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module slush](#apidoc.module.slush)
-
-
-
-# <a name="apidoc.module.slush"></a>[module slush](#apidoc.module.slush)
 
 
 
