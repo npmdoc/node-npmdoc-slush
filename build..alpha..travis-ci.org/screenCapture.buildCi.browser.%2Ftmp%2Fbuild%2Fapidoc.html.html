@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="http://slushjs.github.io"
-
-    >slush (v1.1.1)</a>
+    <a href="http://slushjs.github.io">slush (v1.1.1)</a>
 </h1>
 <h4>The streaming scaffolding system - Gulp as a replacement for Yeoman</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.slush">module slush</a><ol>
 
@@ -121,13 +114,13 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">completion = function (name) {
-  if (typeof name !== &#x27;string&#x27;) throw new Error(&#x27;Missing completion type&#x27;);
-  var file = path.join(__dirname, &#x27;../completion&#x27;, name);
+  if (typeof name !== 'string') throw new Error('Missing completion type');
+  var file = path.join(__dirname, '../completion', name);
   try {
-      console.log(fs.readFileSync(file, &#x27;utf8&#x27;));
+      console.log(fs.readFileSync(file, 'utf8'));
       process.exit(0);
   } catch (err) {
-      console.log(&#x27;echo &#x22;Specified gulp shell auto-completion rules for \&#x27;&#x27;+name+&#x27;\&#x27; not found&#x22;&#x27;);
+      console.log('echo "Specified gulp shell auto-completion rules for \''+name+'\' not found"');
       process.exit(5);
   }
 }</pre></li>
@@ -170,13 +163,13 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">completion = function (name) {
-  if (typeof name !== &#x27;string&#x27;) throw new Error(&#x27;Missing completion type&#x27;);
-  var file = path.join(__dirname, &#x27;../completion&#x27;, name);
+  if (typeof name !== 'string') throw new Error('Missing completion type');
+  var file = path.join(__dirname, '../completion', name);
   try {
-      console.log(fs.readFileSync(file, &#x27;utf8&#x27;));
+      console.log(fs.readFileSync(file, 'utf8'));
       process.exit(0);
   } catch (err) {
-      console.log(&#x27;echo &#x22;Specified gulp shell auto-completion rules for \&#x27;&#x27;+name+&#x27;\&#x27; not found&#x22;&#x27;);
+      console.log('echo "Specified gulp shell auto-completion rules for \''+name+'\' not found"');
       process.exit(5);
   }
 }</pre></li>
@@ -218,3 +211,4 @@
     ]
 </div>
 </div>
+</body></html>
