@@ -1,6 +1,6 @@
 # npmdoc-slush
 
-#### api documentation for  [slush (v1.1.1)](http://slushjs.github.io)  [![npm package](https://img.shields.io/npm/v/npmdoc-slush.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-slush) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-slush.svg)](https://travis-ci.org/npmdoc/node-npmdoc-slush)
+#### basic api documentation for  [slush (v1.1.1)](http://slushjs.github.io)  [![npm package](https://img.shields.io/npm/v/npmdoc-slush.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-slush) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-slush.svg)](https://travis-ci.org/npmdoc/node-npmdoc-slush)
 
 #### The streaming scaffolding system - Gulp as a replacement for Yeoman
 
